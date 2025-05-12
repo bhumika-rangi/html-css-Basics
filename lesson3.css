@@ -33,3 +33,42 @@ opacity: 0.5;
 .tweet:hover{
      box-shadow: 10px 10px 10px rgba(0, 30, 255,0.5);
 }
+
+#cart{
+    background-color: yellow;
+    border:none;
+    border-radius: 20px;
+    color:black;
+    width:100px;
+    height:30px;
+    transition:opacity 0.5s;
+}
+
+#cart:hover{
+background-color:rgb(198, 198, 15);
+}
+
+#cart:active{
+opacity: 0.1;
+}
+
+#buy{
+    background-color: rgb(255, 208, 0);
+    border:none;
+    border-radius: 20px;
+    color:black;
+    width:100px;
+    height:30px;
+    transition:opacity 0.5s;
+
+}
+#buy:hover{
+    background-color: rgb(219, 184, 26);
+}
+#buy:active{
+opacity: 0.1;
+}
+
+a:active{
+color: green;
+}
