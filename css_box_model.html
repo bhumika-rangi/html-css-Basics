@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #back{
+            padding-top:5px;
+            padding-bottom:5px;
+            padding-right:3px;
+            padding-left:3px;
+
+        }
+
+        #next{
+            padding-top:5px;
+            padding-bottom:5px;
+            padding-right:3px;
+            padding-left:3px;
+
+        }
+        a{
+            padding:2px;
+        }
+
+        #greenbox{
+            background-color: green;
+            color:white;
+            border:none;
+            transition: padding 0.5s;
+        }
+        #greenbox:hover{
+            padding:15px;
+        }
+
+        #shadow{
+            background-color: green;
+            color:white;
+            border:none;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+            padding-top:5px;
+            padding-bottom:5px;
+            padding-right:8px;
+            padding-left:8px;
+            transition: box-shadow 0.5s;
+        }
+        #shadow:active{
+            box-shadow:none;
+            margin-top:2px;
+            margin-left:2px;
+        }
+        .three{
+            background-color: green;
+            color:white;
+            border:none;
+            margin:10px;
+            padding:10px;
+            transition: padding 0.5s , margin 0.5s;
+        }
+
+        .three:hover{
+            padding-right:20px;
+            padding-left:20px;
+            margin-left:5px;
+            margin-right:5px;
+        }
+    </style>
+</head>
+<body>
+    <button id="back">Back</button>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <button id="next">Next</button><br><br>
+    <button id="greenbox">Stretch</button><br><br>
+    <button id="shadow">Shadow</button><br><br>
+    <button class="three">One</button>
+    <button class="three">Two</button>
+    <button class="three">Three</button>
+
+</body>
+</html>
