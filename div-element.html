@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all-image{
+            width:180px;
+            height:200px;
+            object-fit:cover;
+            display:inline-block;
+        }
+        .dog-text{
+            padding-left:15px;
+        }
+        .dog-text2{
+            width:120px;
+            height:30px;
+            background-color: rgb(65, 166, 255);
+            color:white;
+            border:none;
+            border-radius:5px;
+            margin-left:10px;
+            margin-bottom:10px;
+            
+        }
+        .dog-image-container{
+            background-color:rgb(250, 236, 223);
+            display:inline-block;
+            width:180px;
+            vertical-align:middle;
+            margin-right:15px;
+            box-shadow:0px 1px 5px rgba(0, 0, 0, 0.479);
+        }
+
+        .cat-image-container{
+            background-color:rgb(250, 236, 223);
+            display:inline-block;
+            width:180px;
+            vertical-align:middle;
+            margin-right:15px;
+            box-shadow:0px 1px 5px rgba(0, 0, 0, 0.479);
+
+        }
+
+        .bird-image-container{
+            background-color:rgb(250, 236, 223);
+            display:inline-block;
+            width:180px;
+            vertical-align:middle;
+            box-shadow:0px 1px 5px rgba(0, 0, 0, 0.479);
+        }
+    </style>
+</head>
+<body>
+    <div class="dog-image-container">
+        <img class="all-image "src="dog.webp">
+        <p class="dog-text"><strong>Oliver</strong></p>
+        <p class="dog-text">2 mutual friends</p>
+        <button class="dog-text2">Add Friend</button>
+    </div>
+
+    <div class="cat-image-container">
+        <img class="all-image"src="cat.jpg">
+        <p class="dog-text"><strong>Oliver</strong></p>
+        <p class="dog-text">2 mutual friends</p>
+        <button class="dog-text2">Add Friend</button>
+    </div>
+
+    <div class="bird-image-container">
+        <img class="all-image" src="bird.webp">
+        <p class="dog-text"><strong>Oliver</strong></p>
+        <p class="dog-text">2 mutual friends</p>
+        <button class="dog-text2">Add Friend</button>
+    </div>
+<!--I had issue where all the profiles where stacked upon one another.Reason?-I created same div for all three profile so i couldn't edit it at all. Solution?-I created new div for each profile and corrected the error.I also made sure that each div must be inline-block to then can be next to year other -->
+</body>
+</html>
